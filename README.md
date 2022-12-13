@@ -51,7 +51,7 @@ python3 Part2.ipynb
 ## Part 3: Build a deep LSTM network
 
 #### A 2-layer LSTM sequence classifier. 
-<img src="resources/deep_lstm.png">
+<img src="resources/LSTM.png">
 
 #### Word Embedding
 <img src="resources/word-vector.png">
