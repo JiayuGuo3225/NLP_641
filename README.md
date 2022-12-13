@@ -15,7 +15,10 @@ https://docs.google.com/document/d/1ZQttvH2tzm2Zpb_SzTMi1rPlxBLxaIZgF_s44i14M6Y/
 
 ## Sentiment Analysis run Part 1: Build a complete pipeline for solving sentiment analysis problem
 
-In this part wer use different packages in Python to build a complete pipeline for solving sentiment analysis problem. We use the simplest model, Mutinomial NB. There are serval result plot will be shown
+In this part wer use different packages in Python to build a complete pipeline for solving sentiment analysis problem. We use the simplest model, Mutinomial NB. There are serval result plot will be shown.
+
+### Pipeline
+<img src="resources/pipeline.png">
 
 Open the terminal
 ```
@@ -34,6 +37,7 @@ LR works not so well when features are not linearly separable. It depends heavil
 <br>
 <center>A 2-layer neural network: 1 hidden layer + 1 output layer</center>
 
+
 This part is Extra work part. Just show the how to implement some NLP methods in another NLP applications. In this part we will use a powerful method to represent word in the numerical way and apply it to a simply 2-layer network for classification. We use the Load moon dataset from sklearn and emoji dataset from https://www.dropbox.com/s/g5pkso42wq2ipti/glove.tar.gz?dl=1.
 
 
@@ -48,8 +52,10 @@ python3 Part2.ipynb
 
 ## Part 3: Build a deep LSTM network
 
-<img src="resources/deep_lstm.png" style="width:700px;height:400px;"> <br>
-<caption><center> A 2-layer LSTM sequence classifier. </center></caption>
+<img src="resources/deep_lstm.png" 
+
+<br>
+<caption><center> A 2-layer LSTM sequence classifier. </center>
 
 
 This part is Extra work part. Just show the how to implement some more NLP applications.
