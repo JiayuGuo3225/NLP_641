@@ -9,8 +9,15 @@ https://docs.google.com/document/d/1ZQttvH2tzm2Zpb_SzTMi1rPlxBLxaIZgF_s44i14M6Y/
 
 # Sentiment Analysis
 
-## Part 1: Build a complete pipeline for solving sentiment analysis problem
-Will use different packages in Python to build a complete pipeline for solving sentiment analysis problem. Will use the simplest model, Mutinomial NB
+## Sentiment Analysis run Part 1: Build a complete pipeline for solving sentiment analysis problem
+
+Open the terminal
+```
+python3 Part1.ipynb
+
+```
+
+In this part wer use different packages in Python to build a complete pipeline for solving sentiment analysis problem. We use the simplest model, Mutinomial NB. There are serval result plot will be shown
 
 ## Part 2: Word Embeddings and Neural Network
 
