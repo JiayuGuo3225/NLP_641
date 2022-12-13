@@ -17,7 +17,7 @@ https://docs.google.com/document/d/1ZQttvH2tzm2Zpb_SzTMi1rPlxBLxaIZgF_s44i14M6Y/
 
 In this part wer use different packages in Python to build a complete pipeline for solving sentiment analysis problem. We use the simplest model, Mutinomial NB. There are serval result plot will be shown.
 
-### Pipeline
+#### Pipeline
 <img src="resources/pipeline.png">
 
 Open the terminal
@@ -32,7 +32,7 @@ python3 Part1.ipynb
 
 LR works not so well when features are not linearly separable. It depends heavily on features, so feature engineering is essential if you are using LR.
 
-A 2-layer neural network: 1 hidden layer + 1 output layer
+#### A 2-layer neural network: 1 hidden layer + 1 output layer
 <img src="resources/2-layer-nn.png">
 
 
@@ -50,8 +50,11 @@ python3 Part2.ipynb
 
 ## Part 3: Build a deep LSTM network
 
-A 2-layer LSTM sequence classifier. 
+#### A 2-layer LSTM sequence classifier. 
 <img src="resources/deep_lstm.png">
+
+#### Word Embedding
+<img src="resources/word-vector.png">
 
 
 This part is Extra work part. Just show the how to implement some more NLP applications.
