@@ -2,6 +2,11 @@
 Natural Language Processing Project
 
 
+## NLP Setup the Environment
+
+https://docs.google.com/document/d/1ZQttvH2tzm2Zpb_SzTMi1rPlxBLxaIZgF_s44i14M6Y/edit?usp=sharing
+
+
 # Sentiment Analysis
 
 ## Part 1: Build a complete pipeline for solving sentiment analysis problem
