@@ -69,4 +69,25 @@ python3 Part3.ipynb
 
 
 ## Part 4:
+Text Style Transfer Portion:
 
+For raw code featuring model creation and overall process refer to Final_project.ipynb and Sentiment_Style_Transfer_CycleGAN.ipynb. Note that the latter of the two files (i.e the one using CycleGAN) is incomplete and does not work. I have included it as a reference to you for some of the extra modeling that we worked on that did not work. For Final_Project.ipynb, if you would like to run the cells, simply run each cell in order to get the outputs. Note however that the modeling takes approximately an hour. Also note that running these notebooks requires access to training data, and they were run using either google colab or kaggle and so extracting files is dependent on the corresponding file system.
+
+To get immediate results from the model, run main.py with the following command:
+
+python main.py or python3 main.py
+
+Note that this file extracts the model file and vocab files from S3 and so takes a few minutes to extract depending on internet connection strength. The program will give instructions on inputs to give it. Please follow the directions given to you upon running the file. For example, the program will ask if you would like to transfer a statement from negative to positive or vice versa and then will ask you to input a statement with negative or positive sentiment and will output the corresponding output statement in the opposite sentiment.
+
+The required python versioning is given below:
+
+python: 3.8.5
+torch: 1.13.0
+torchtext: 0.14.0
+tqdm: 4.64.0
+pandas: 1.1.3
+nltk: 3.5
+matplotlib: 3.3.2
+boto3: 1.17.112
+
+Please use these versions along with their corresponding dependencies to ensure appropriate output from the above files.
