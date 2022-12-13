@@ -32,10 +32,8 @@ python3 Part1.ipynb
 
 LR works not so well when features are not linearly separable. It depends heavily on features, so feature engineering is essential if you are using LR.
 
+A 2-layer neural network: 1 hidden layer + 1 output layer
 <img src="resources/2-layer-nn.png">
-
-<br>
-<center>A 2-layer neural network: 1 hidden layer + 1 output layer</center>
 
 
 This part is Extra work part. Just show the how to implement some NLP methods in another NLP applications. In this part we will use a powerful method to represent word in the numerical way and apply it to a simply 2-layer network for classification. We use the Load moon dataset from sklearn and emoji dataset from https://www.dropbox.com/s/g5pkso42wq2ipti/glove.tar.gz?dl=1.
@@ -52,10 +50,8 @@ python3 Part2.ipynb
 
 ## Part 3: Build a deep LSTM network
 
-<img src="resources/deep_lstm.png" 
-
-<br>
-<caption><center> A 2-layer LSTM sequence classifier. </center>
+A 2-layer LSTM sequence classifier. 
+<img src="resources/deep_lstm.png">
 
 
 This part is Extra work part. Just show the how to implement some more NLP applications.
